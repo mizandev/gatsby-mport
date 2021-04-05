@@ -2,18 +2,12 @@
   "name": "gatsby-mport",
   "version": "1.0.0",
   "author": {
-  "name": "MizanDev",
-  "twitter": "@mizandev"
+    "name": "MizanDev",
+    "email": "hi@mizan.dev"
   },
   "description": "A colorful and parallax  gatsby theme for portfolio with theme-ui",
   "license": "MIT",
   "main": "index.js",
-  "scripts": {
-    "build": "gatsby build",
-    "clean": "gatsby clean",
-    "develop": "gatsby develop",
-    "start": "gatsby develop"
-  },
   "peerDependencies": {
     "gatsby": "^3.2.0",
     "react": "^16.4.0",
@@ -34,6 +28,12 @@
     "react-spring": "^9.0.0",
     "theme-ui": "^0.6.1"
   },
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "start": "gatsby develop"
+  },
   "deprecated": false,
   "publishConfig": {
     "access": "public"
@@ -42,18 +42,12 @@
     "type": "git",
     "url": "git+https://github.com/MizanDev/npm-package-starter.git",
     "directory": "gatsby-themes/gatsby-mport"
-    
   },
   "keywords": [
     "Gatsby",
-    "Gatsby",
-    "Theme",
-    "Gatsby",
-    "Theme-UI",
-    "Personal",
-    "Protfolio",
-    "with",
-    "Gatsby"
+    "Gatsby Theme",
+    "Gatsby Theme-UI",
+    "Personal Protfolio with Gatsby"
   ],
   "bugs": {
     "url": "https://github.com/MizanDev/npm-package-starter/issues"
