@@ -36,7 +36,22 @@ const theme = merge(tailwind, {
       },
     },
   },
+  fonts: {
+    body: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Poppins", "Helvetica Neue", sans-serif',
+    heading: 'Poppins, Georgia, serif',
+  },
   breakpoints: [`400px`, `600px`, `900px`, `1200px`, `1600px`],
+  header: {
+    textAlign: `center`,
+    display: `block`,
+    position: `fixed`,
+    top: 0,
+    right: 0,
+    color: `textMuted`,
+    px: [2, 3],
+    py: [3, 4],
+    zIndex: 99,
+  },
   footer: {
     textAlign: `center`,
     display: `block`,
@@ -83,7 +98,8 @@ const theme = merge(tailwind, {
       },
     },
     h1: {
-      fontSize: [6, 7, 8],
+      fontSize: [5, 6, 7],
+      fontWeight:600,
       mt: 2,
       mb: 3,
       textShadow: `rgba(255, 255, 255, 0.15) 0px 5px 35px`,

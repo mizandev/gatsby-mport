@@ -12,26 +12,26 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
   <div>
     <Divider
       bg="linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%)"
-      sx={{ clipPath: `polygon(0 15%, 100% 25%, 100% 85%, 0 75%)` }}
-      speed={-0.2}
+      sx={{ clipPath: `polygon(0 15%, 100% 25%, 100% 70%, 0 60%)` }}
+      speed={0.1}
       offset={1.1}
       factor={factor}
     />
-    <Content speed={0.4} offset={offset + 0.2} factor={factor}>
+    <Content speed={0.4} offset={offset} factor={factor}>
       <Inner>
         <div
           sx={{
             display: `grid`,
-            gridGap: [4, 4, 4, 5],
+            gridGap: [3, 3, 3, 4],
             gridTemplateColumns: [`1fr`, `1fr`, `repeat(2, 1fr)`],
-            h2: { gridColumn: `-1/1`, color: `white !important` },
+            h2: { gridColumn: `-1/1` },
           }}
         >
           <ProjectsMDX />
         </div>
       </Inner>
     </Content>
-    <Divider speed={0.1} offset={offset} factor={factor}>
+    <Divider speed={0.1} offset={offset+0.1} factor={factor}>
       <UpDown>
         <SVG icon="box" width={6} color="icon_brightest" left="85%" top="75%" />
         <SVG icon="upDown" width={8} color="icon_teal" left="70%" top="20%" />

@@ -1,4 +1,4 @@
-import { keyframes, css } from "@emotion/core"
+import { keyframes, css } from "@emotion/react"
 import styled from "@emotion/styled"
 
 const wave = keyframes`

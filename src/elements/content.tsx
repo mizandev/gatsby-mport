@@ -1,7 +1,8 @@
 /** @jsx jsx */
 import React from "react"
 import { jsx } from "theme-ui"
-import { ParallaxLayer } from "react-spring/renderprops-addons.cjs"
+// @ts-ignore
+import { ParallaxLayer } from "react-spring/renderprops-addons"
 
 type ContentProps = {
   speed: number
@@ -10,7 +11,6 @@ type ContentProps = {
   className?: string
   factor?: number
 }
-
 const Content = ({ speed, offset, children, className = ``, factor = 1 }: ContentProps) => (
   <ParallaxLayer
     sx={{

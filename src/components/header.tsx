@@ -1,24 +1,24 @@
 /** @jsx jsx */
 import { Box, Flex, jsx } from "theme-ui"
+import Navlinks from "./navlinks"
 
-const Footer = () => {
+const Header = () => {
   return (
-    <Box as="footer" variant="footer">
-      Copyright &copy; {new Date().getFullYear()} MizanDev. All rights reserved.
-      <br />
+    <Box as="header" variant="header">
       <Flex
         sx={{
           justifyContent: `center`,
           alignItems: `center`,
-          mt: 3,
+          mt: 0,
           color: `text`,
           fontWeight: `semibold`,
           a: { color: `text` },
         }}
       >
+        <Navlinks />
       </Flex>
     </Box>
   )
 }
 
-export default Footer
+export default Header;

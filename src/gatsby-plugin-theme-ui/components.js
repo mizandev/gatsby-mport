@@ -1,5 +1,6 @@
 import React from "react"
 import ProjectCard from "../components/project-card"
+import InspireCard from "../components/inspire-card"
 
 const components = {
   // eslint-disable-next-line react/display-name
@@ -8,6 +9,12 @@ const components = {
       {children}
     </ProjectCard>
   ),
+  InspireCard: ({ title, bg, children }) => (
+    <InspireCard title={title} bg={bg}>
+      {children}
+    </InspireCard>
+  ),
 }
 
 export default components
+
