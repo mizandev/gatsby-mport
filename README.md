@@ -4,11 +4,11 @@
   </a>
 </p>
 <h1 align="center">
-  @mizandev/gatsby-mport
+  A personal portfolio with GatsbyJS
 </h1>
 
 <p align="center">
-  <a href="https://github.com/MizanDev/gatsby-themes/blob/master/LICENSE">
+  <a href="/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="@mizandev/gatsby-mport is released under the MIT license." />
   </a>
 </p>
@@ -24,15 +24,16 @@ Playful and Colorful One-Page portfolio featuring Parallax effects and animation
 
 ## Installation
 
-### Install as a starter
+### Install
 
-This will generate a new site (with the folder name "mport") that pre-configures use of the theme including example content and additional plugins.
+Clone the repo and run:
 
 ```sh
-gatsby new mport MizanDev/gatsby-mport
+npm install
+gatsby develop
 ```
 
-[**View the starter's code**](https://github.com/MizanDev/gatsby-mport)
+[**View the live site**](https://v1.mizan.dev/)
 
 ## Usage
 
@@ -50,7 +51,7 @@ gatsby new mport MizanDev/gatsby-mport
 module.exports = {
   plugins: [
     {
-      resolve: `@MizanDev/gatsby-mport`,
+      resolve: `@mizandev/gatsby-mport`,
       options: {
         // basePath defaults to `/`
         basePath: `/sideproject`,
